@@ -1,0 +1,324 @@
+/* ESSENZIALI */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu",sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: url(img/bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ESSENZIALI END */
+
+/* HEADER */
+
+header{
+    height: 90px;
+}
+
+.contenitore{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    transition: .3s linear;
+}
+
+.contenitore .link{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    transition: .3s linear;
+}
+
+.contenitore .link a{
+    color: #666666;
+    font-weight: 500;
+    padding: 0 10px;
+    transition: .3s linear;
+}
+
+.contenitore .link a:hover{
+    color: #ff580a;
+}
+
+.contenitore .link i{
+    color: #666666;
+    font-weight: 500;
+    padding: 0 10px;
+    transition: .3s linear;
+}
+
+.contenitore .logo img{
+    width: 60px;
+    height: auto;
+}
+
+.contenitore .logo{
+    float: left;
+    padding: 20px 0;
+}
+
+/* HEADER END*/
+
+/* SCRATCH GAME */
+.centro .link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* SCRATCH GAME END */
+
+/* INFO */
+
+.custom-shape-divider-bottom-1638987381 {
+    position: absolute;
+    top: 94vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1638987381 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1638987381 .shape-fill {
+    fill: #102740;
+}
+
+.istruzioni{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.istruzioni .quadro{
+    width: 330px;
+    background-color: #243B53;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #2d4a69;
+    margin: 50px;
+}
+
+.istruzioni .quadro .bg img{
+    width: 330px;
+    height: 175px;
+}
+
+.istruzioni .quadro .bg img{
+    width: 330px;
+    height: 175px;
+}
+
+.istruzioni .quadro .sezione-testo{
+    color: #666666;
+    margin: 20px;
+}
+
+.istruzioni .quadro .sezione-testo{
+    color: #666666;
+    margin: 20px;
+}
+
+.istruzioni .quadro .sezione-testo .titolo{
+    margin-bottom: 20px;
+}
+
+.istruzioni .quadro .sezione-testo .titolo{
+    margin-bottom: 20px;
+}
+
+.informazioni {
+    background-color: #102740;
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 100vh;
+    padding: 50px;
+}
+
+.informazioni .head {
+    max-width: 1000px;
+    height: 100px;
+    display: flex;
+    color: #c94202;
+    flex-direction: column;
+}
+
+.istruzioni .titolo {
+    max-width: 1000px;
+    display: flex;
+    color: #c94202;
+    flex-direction: column;
+}
+
+.istruzioni .descrizione {
+    max-width: 1000px;
+    display: flex;
+    color: #963203;
+    flex-direction: column;
+}
+
+/* INFO END */
+
+/* FOOTER  */
+
+.footer {
+    background-color: #1b1c1d;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .sez {
+    width: 400px;
+    border-right: 1px solid #fff;
+    margin-left: 20px;
+}
+
+.footer .copy .titolo {
+    color: #fff;
+}
+
+.footer .copy .name {
+    color: gray;
+    display: block;
+    padding-top: 20px;
+}
+
+.footer .copy .redrix {
+    color: gray;
+    display: block;
+    padding-top: 7px;
+}
+
+.footer .copy .redrix a {
+    color: #b08402;
+    transition: .2s linear;
+}
+
+.footer .copy .redrix a:hover {
+    color: #c94202;
+}
+
+.footer .social .titolo {
+    color: #fff;
+}
+
+.footer .social {
+   border-right: none;
+}
+
+.footer .social .instagram {
+    padding-top: 20px;
+}
+
+.footer .social a {
+    color: gray;
+}
+
+.footer .social .discord {
+    padding-top: 7px;
+}
+
+.footer .social a {
+    transition: .2s linear;
+}
+
+.icons {
+    padding-top: 15px;
+}
+
+.footer .social a:hover {
+    color: #fff;
+}
+
+/* FOOTER  */
+
+/* TELEFONO */
+
+.menu-toggle{
+    float: right;
+    height: 90px;
+    line-height: 90px !important;
+    color: #fff;
+    font-size: 26px;
+    display: none !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px){
+
+    .custom-shape-divider-bottom-1638987381 {
+        display: none;
+    }
+
+    .contenitore .link{
+        display: none;
+        position: absolute;
+        width: 100%;
+        max-width: 1300px;
+        background-color: #102740;
+        top: 90px;
+        right: 0;
+        padding: 20px 40px;
+    }
+
+    .contenitore.link::before{
+        content: "";
+    }
+
+    .contenitore .link.active{
+        display: block;
+    }
+
+
+    .contenitore .link a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .contenitore .link .separatore{
+        display: none;
+    }
+
+    .centro .link{
+        margin-top: 50px;
+    }
+
+    .menu-toggle{
+        display: block !important;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        height: 360px;
+    }
+    
+    .footer .sez {
+        width: 305px;
+        margin-top: 20px;
+        border-right: none;
+    }
+}
